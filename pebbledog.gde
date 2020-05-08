@@ -14,6 +14,9 @@
     <golex Category="coordinates">0</golex>
     <golez Category="coordinates">0</golez>
     <robotthere Category="None">0</robotthere>
+    <robot1there Category="existance">0</robot1there>
+    <robot2there Category="existance">0</robot2there>
+    <robot3there Category="existance">0</robot3there>
   </Global_Variables>
   <Game_Objects NodeType="Folder">
     <RootNode NodeType="Folder">
@@ -1926,7 +1929,9 @@
             <Delay>0.01</Delay>
             <AudioLoop>False</AudioLoop>
             <Local_Variables />
-            <CreationActions>
+            <CreationActions />
+            <DestructionActions />
+            <PeriodicalActions>
               <If>
                 <Data>G</Data>
                 <Par1>robotbehavior</Par1>
@@ -1935,9 +1940,18 @@
                 <CVar>1</CVar>
                 <CollisionEffectOther>False</CollisionEffectOther>
               </If>
-              <PlayPosAudio>
-                <Data>robotcalm</Data>
-                <Par1>1</Par1>
+              <If>
+                <Data>G</Data>
+                <Par1>robot1there</Par1>
+                <Par2>==</Par2>
+                <CVarType>C</CVarType>
+                <CVar>0</CVar>
+                <CollisionEffectOther>False</CollisionEffectOther>
+              </If>
+              <CreateObject>
+                <Data>robotcalm.dat</Data>
+                <Par1>
+                </Par1>
                 <Par2>
                 </Par2>
                 <CVarType>
@@ -1945,7 +1959,20 @@
                 <CVar>
                 </CVar>
                 <CollisionEffectOther>False</CollisionEffectOther>
-              </PlayPosAudio>
+              </CreateObject>
+              <End>
+                <Data>
+                </Data>
+                <Par1>
+                </Par1>
+                <Par2>
+                </Par2>
+                <CVarType>
+                </CVarType>
+                <CVar>
+                </CVar>
+                <CollisionEffectOther>False</CollisionEffectOther>
+              </End>
               <End>
                 <Data>
                 </Data>
@@ -1967,9 +1994,31 @@
                 <CVar>2</CVar>
                 <CollisionEffectOther>False</CollisionEffectOther>
               </If>
-              <PlayPosAudio>
-                <Data>robottaunt</Data>
-                <Par1>1</Par1>
+              <DestroySelf>
+                <Data>
+                </Data>
+                <Par1>
+                </Par1>
+                <Par2>
+                </Par2>
+                <CVarType>
+                </CVarType>
+                <CVar>
+                </CVar>
+                <CollisionEffectOther>robotcalm</CollisionEffectOther>
+              </DestroySelf>
+              <If>
+                <Data>G</Data>
+                <Par1>robot2there</Par1>
+                <Par2>==</Par2>
+                <CVarType>C</CVarType>
+                <CVar>0</CVar>
+                <CollisionEffectOther>False</CollisionEffectOther>
+              </If>
+              <CreateObject>
+                <Data>robotmad.dat</Data>
+                <Par1>
+                </Par1>
                 <Par2>
                 </Par2>
                 <CVarType>
@@ -1977,7 +2026,7 @@
                 <CVar>
                 </CVar>
                 <CollisionEffectOther>False</CollisionEffectOther>
-              </PlayPosAudio>
+              </CreateObject>
               <End>
                 <Data>
                 </Data>
@@ -1999,9 +2048,31 @@
                 <CVar>3</CVar>
                 <CollisionEffectOther>False</CollisionEffectOther>
               </If>
-              <PlayPosAudio>
-                <Data>robotrun</Data>
-                <Par1>1</Par1>
+              <DestroySelf>
+                <Data>
+                </Data>
+                <Par1>
+                </Par1>
+                <Par2>
+                </Par2>
+                <CVarType>
+                </CVarType>
+                <CVar>
+                </CVar>
+                <CollisionEffectOther>robotmad</CollisionEffectOther>
+              </DestroySelf>
+              <If>
+                <Data>G</Data>
+                <Par1>robot3there</Par1>
+                <Par2>==</Par2>
+                <CVarType>C</CVarType>
+                <CVar>0</CVar>
+                <CollisionEffectOther>False</CollisionEffectOther>
+              </If>
+              <CreateObject>
+                <Data>robotscared.dat</Data>
+                <Par1>
+                </Par1>
                 <Par2>
                 </Par2>
                 <CVarType>
@@ -2009,7 +2080,7 @@
                 <CVar>
                 </CVar>
                 <CollisionEffectOther>False</CollisionEffectOther>
-              </PlayPosAudio>
+              </CreateObject>
               <End>
                 <Data>
                 </Data>
@@ -2023,9 +2094,19 @@
                 </CVar>
                 <CollisionEffectOther>False</CollisionEffectOther>
               </End>
-            </CreationActions>
-            <DestructionActions />
-            <PeriodicalActions>
+              <End>
+                <Data>
+                </Data>
+                <Par1>
+                </Par1>
+                <Par2>
+                </Par2>
+                <CVarType>
+                </CVarType>
+                <CVar>
+                </CVar>
+                <CollisionEffectOther>False</CollisionEffectOther>
+              </End>
               <SetX>
                 <Data>
                 </Data>
@@ -2424,6 +2505,344 @@
             <Btn5HeldActions />
             <AudioFinishedActions />
           </robotfeet>
+          <robottalking NodeType="Folder">
+            <robotcalm NodeType="GameObject">
+              <Name>robotcalm</Name>
+              <X>0</X>
+              <Y>0</Y>
+              <Z>0</Z>
+              <BX>0</BX>
+              <BY>0</BY>
+              <BZ>0</BZ>
+              <Delay>0.01</Delay>
+              <AudioLoop>True</AudioLoop>
+              <Local_Variables />
+              <CreationActions>
+                <SetGlobalVariable>
+                  <Data>robot1there</Data>
+                  <Par1>1</Par1>
+                  <Par2>
+                  </Par2>
+                  <CVarType>
+                  </CVarType>
+                  <CVar>
+                  </CVar>
+                  <CollisionEffectOther>False</CollisionEffectOther>
+                </SetGlobalVariable>
+                <PlayPosAudio>
+                  <Data>robotcalm</Data>
+                  <Par1>1</Par1>
+                  <Par2>
+                  </Par2>
+                  <CVarType>
+                  </CVarType>
+                  <CVar>
+                  </CVar>
+                  <CollisionEffectOther>False</CollisionEffectOther>
+                </PlayPosAudio>
+                <SetX>
+                  <Data>
+                  </Data>
+                  <Par1>robotx</Par1>
+                  <Par2>
+                  </Par2>
+                  <CVarType>
+                  </CVarType>
+                  <CVar>
+                  </CVar>
+                  <CollisionEffectOther>False</CollisionEffectOther>
+                </SetX>
+                <SetZ>
+                  <Data>
+                  </Data>
+                  <Par1>robotz</Par1>
+                  <Par2>
+                  </Par2>
+                  <CVarType>
+                  </CVarType>
+                  <CVar>
+                  </CVar>
+                  <CollisionEffectOther>False</CollisionEffectOther>
+                </SetZ>
+              </CreationActions>
+              <DestructionActions>
+                <SetGlobalVariable>
+                  <Data>robot1there</Data>
+                  <Par1>0</Par1>
+                  <Par2>
+                  </Par2>
+                  <CVarType>
+                  </CVarType>
+                  <CVar>
+                  </CVar>
+                  <CollisionEffectOther>False</CollisionEffectOther>
+                </SetGlobalVariable>
+              </DestructionActions>
+              <PeriodicalActions>
+                <SetX>
+                  <Data>
+                  </Data>
+                  <Par1>robotx</Par1>
+                  <Par2>
+                  </Par2>
+                  <CVarType>
+                  </CVarType>
+                  <CVar>
+                  </CVar>
+                  <CollisionEffectOther>False</CollisionEffectOther>
+                </SetX>
+                <SetZ>
+                  <Data>
+                  </Data>
+                  <Par1>robotz</Par1>
+                  <Par2>
+                  </Par2>
+                  <CVarType>
+                  </CVarType>
+                  <CVar>
+                  </CVar>
+                  <CollisionEffectOther>False</CollisionEffectOther>
+                </SetZ>
+              </PeriodicalActions>
+              <CollisionActions />
+              <UpPressedActions />
+              <DownPressedActions />
+              <LeftPressedActions />
+              <RightPressedActions />
+              <Btn1PressedActions />
+              <Btn2PressedActions />
+              <Btn3PressedActions />
+              <Btn4PressedActions />
+              <Btn5PressedActions />
+              <UpReleasedActions />
+              <DownReleasedActions />
+              <LeftReleasedActions />
+              <RightReleasedActions />
+              <Btn1ReleasedActions />
+              <Btn2ReleasedActions />
+              <Btn3ReleasedActions />
+              <Btn4ReleasedActions />
+              <Btn5ReleasedActions />
+              <UpHeldActions />
+              <DownHeldActions />
+              <LeftHeldActions />
+              <RightHeldActions />
+              <Btn1HeldActions />
+              <Btn2HeldActions />
+              <Btn3HeldActions />
+              <Btn4HeldActions />
+              <Btn5HeldActions />
+              <AudioFinishedActions />
+            </robotcalm>
+            <robotmad NodeType="GameObject">
+              <Name>robotmad</Name>
+              <X>0</X>
+              <Y>0</Y>
+              <Z>0</Z>
+              <BX>0</BX>
+              <BY>0</BY>
+              <BZ>0</BZ>
+              <Delay>0.01</Delay>
+              <AudioLoop>True</AudioLoop>
+              <Local_Variables />
+              <CreationActions>
+                <SetGlobalVariable>
+                  <Data>robot2there</Data>
+                  <Par1>1</Par1>
+                  <Par2>
+                  </Par2>
+                  <CVarType>
+                  </CVarType>
+                  <CVar>
+                  </CVar>
+                  <CollisionEffectOther>False</CollisionEffectOther>
+                </SetGlobalVariable>
+                <PlayPosAudio>
+                  <Data>robottaunt</Data>
+                  <Par1>1</Par1>
+                  <Par2>
+                  </Par2>
+                  <CVarType>
+                  </CVarType>
+                  <CVar>
+                  </CVar>
+                  <CollisionEffectOther>False</CollisionEffectOther>
+                </PlayPosAudio>
+              </CreationActions>
+              <DestructionActions>
+                <SetGlobalVariable>
+                  <Data>robot2there</Data>
+                  <Par1>0</Par1>
+                  <Par2>
+                  </Par2>
+                  <CVarType>
+                  </CVarType>
+                  <CVar>
+                  </CVar>
+                  <CollisionEffectOther>False</CollisionEffectOther>
+                </SetGlobalVariable>
+              </DestructionActions>
+              <PeriodicalActions>
+                <SetX>
+                  <Data>
+                  </Data>
+                  <Par1>robotx</Par1>
+                  <Par2>
+                  </Par2>
+                  <CVarType>
+                  </CVarType>
+                  <CVar>
+                  </CVar>
+                  <CollisionEffectOther>False</CollisionEffectOther>
+                </SetX>
+                <SetZ>
+                  <Data>
+                  </Data>
+                  <Par1>robotz</Par1>
+                  <Par2>
+                  </Par2>
+                  <CVarType>
+                  </CVarType>
+                  <CVar>
+                  </CVar>
+                  <CollisionEffectOther>False</CollisionEffectOther>
+                </SetZ>
+              </PeriodicalActions>
+              <CollisionActions />
+              <UpPressedActions />
+              <DownPressedActions />
+              <LeftPressedActions />
+              <RightPressedActions />
+              <Btn1PressedActions />
+              <Btn2PressedActions />
+              <Btn3PressedActions />
+              <Btn4PressedActions />
+              <Btn5PressedActions />
+              <UpReleasedActions />
+              <DownReleasedActions />
+              <LeftReleasedActions />
+              <RightReleasedActions />
+              <Btn1ReleasedActions />
+              <Btn2ReleasedActions />
+              <Btn3ReleasedActions />
+              <Btn4ReleasedActions />
+              <Btn5ReleasedActions />
+              <UpHeldActions />
+              <DownHeldActions />
+              <LeftHeldActions />
+              <RightHeldActions />
+              <Btn1HeldActions />
+              <Btn2HeldActions />
+              <Btn3HeldActions />
+              <Btn4HeldActions />
+              <Btn5HeldActions />
+              <AudioFinishedActions />
+            </robotmad>
+            <robotscared NodeType="GameObject">
+              <Name>robotscared</Name>
+              <X>0</X>
+              <Y>0</Y>
+              <Z>0</Z>
+              <BX>0</BX>
+              <BY>0</BY>
+              <BZ>0</BZ>
+              <Delay>0.01</Delay>
+              <AudioLoop>True</AudioLoop>
+              <Local_Variables />
+              <CreationActions>
+                <SetGlobalVariable>
+                  <Data>robot3there</Data>
+                  <Par1>1</Par1>
+                  <Par2>
+                  </Par2>
+                  <CVarType>
+                  </CVarType>
+                  <CVar>
+                  </CVar>
+                  <CollisionEffectOther>False</CollisionEffectOther>
+                </SetGlobalVariable>
+                <PlayPosAudio>
+                  <Data>robotrun</Data>
+                  <Par1>1</Par1>
+                  <Par2>
+                  </Par2>
+                  <CVarType>
+                  </CVarType>
+                  <CVar>
+                  </CVar>
+                  <CollisionEffectOther>False</CollisionEffectOther>
+                </PlayPosAudio>
+              </CreationActions>
+              <DestructionActions>
+                <SetGlobalVariable>
+                  <Data>robot3there</Data>
+                  <Par1>0</Par1>
+                  <Par2>
+                  </Par2>
+                  <CVarType>
+                  </CVarType>
+                  <CVar>
+                  </CVar>
+                  <CollisionEffectOther>False</CollisionEffectOther>
+                </SetGlobalVariable>
+              </DestructionActions>
+              <PeriodicalActions>
+                <SetX>
+                  <Data>
+                  </Data>
+                  <Par1>robotx</Par1>
+                  <Par2>
+                  </Par2>
+                  <CVarType>
+                  </CVarType>
+                  <CVar>
+                  </CVar>
+                  <CollisionEffectOther>False</CollisionEffectOther>
+                </SetX>
+                <SetZ>
+                  <Data>
+                  </Data>
+                  <Par1>robotz</Par1>
+                  <Par2>
+                  </Par2>
+                  <CVarType>
+                  </CVarType>
+                  <CVar>
+                  </CVar>
+                  <CollisionEffectOther>False</CollisionEffectOther>
+                </SetZ>
+              </PeriodicalActions>
+              <CollisionActions />
+              <UpPressedActions />
+              <DownPressedActions />
+              <LeftPressedActions />
+              <RightPressedActions />
+              <Btn1PressedActions />
+              <Btn2PressedActions />
+              <Btn3PressedActions />
+              <Btn4PressedActions />
+              <Btn5PressedActions />
+              <UpReleasedActions />
+              <DownReleasedActions />
+              <LeftReleasedActions />
+              <RightReleasedActions />
+              <Btn1ReleasedActions />
+              <Btn2ReleasedActions />
+              <Btn3ReleasedActions />
+              <Btn4ReleasedActions />
+              <Btn5ReleasedActions />
+              <UpHeldActions />
+              <DownHeldActions />
+              <LeftHeldActions />
+              <RightHeldActions />
+              <Btn1HeldActions />
+              <Btn2HeldActions />
+              <Btn3HeldActions />
+              <Btn4HeldActions />
+              <Btn5HeldActions />
+              <AudioFinishedActions />
+            </robotscared>
+          </robottalking>
         </robot>
         <gole NodeType="GameObject">
           <Name>gole</Name>
