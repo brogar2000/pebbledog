@@ -1,0 +1,2679 @@
+<ProjectData>
+  <Global_Variables>
+    <dogx Category="coordinates">0</dogx>
+    <dogy Category="coordinates">0</dogy>
+    <dogz Category="coordinates">0</dogz>
+    <score Category="stats">0</score>
+    <pebblethere Category="existance">0</pebblethere>
+    <spawnvar Category="None">0</spawnvar>
+    <spawnx Category="coordinates">0</spawnx>
+    <spawnz Category="coordinates">0</spawnz>
+    <robotbehavior Category="enembehavior">1</robotbehavior>
+    <robotx Category="coordinates">0</robotx>
+    <robotz Category="coordinates">0</robotz>
+    <golex Category="coordinates">0</golex>
+    <golez Category="coordinates">0</golez>
+    <robotthere Category="None">0</robotthere>
+  </Global_Variables>
+  <Game_Objects NodeType="Folder">
+    <RootNode NodeType="Folder">
+      <Loader NodeType="GameObject">
+        <Name>Loader</Name>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <BX>0</BX>
+        <BY>0</BY>
+        <BZ>0</BZ>
+        <Delay>0</Delay>
+        <AudioLoop>False</AudioLoop>
+        <Local_Variables />
+        <CreationActions>
+          <ChangeAudio>
+            <Data>Hold on a second...</Data>
+            <Par1>0</Par1>
+            <Par2>
+            </Par2>
+            <CVarType>
+            </CVarType>
+            <CVar>
+            </CVar>
+            <CollisionEffectOther>False</CollisionEffectOther>
+          </ChangeAudio>
+          <Say>
+            <Data>
+            </Data>
+            <Par1>0</Par1>
+            <Par2>
+            </Par2>
+            <CVarType>
+            </CVarType>
+            <CVar>
+            </CVar>
+            <CollisionEffectOther>False</CollisionEffectOther>
+          </Say>
+          <LoadAudio>
+            <Data>catrun</Data>
+            <Par1>\catrun.ogg</Par1>
+            <Par2>
+            </Par2>
+            <CVarType>
+            </CVarType>
+            <CVar>
+            </CVar>
+            <CollisionEffectOther>False</CollisionEffectOther>
+          </LoadAudio>
+          <LoadAudio>
+            <Data>cattaunt</Data>
+            <Par1>\cattnt.ogg</Par1>
+            <Par2>
+            </Par2>
+            <CVarType>
+            </CVarType>
+            <CVar>
+            </CVar>
+            <CollisionEffectOther>False</CollisionEffectOther>
+          </LoadAudio>
+          <LoadAudio>
+            <Data>catwalk</Data>
+            <Par1>\catwlk.ogg</Par1>
+            <Par2>
+            </Par2>
+            <CVarType>
+            </CVarType>
+            <CVar>
+            </CVar>
+            <CollisionEffectOther>False</CollisionEffectOther>
+          </LoadAudio>
+          <LoadAudio>
+            <Data>dogbark</Data>
+            <Par1>\dogbrk.ogg</Par1>
+            <Par2>
+            </Par2>
+            <CVarType>
+            </CVarType>
+            <CVar>
+            </CVar>
+            <CollisionEffectOther>False</CollisionEffectOther>
+          </LoadAudio>
+          <LoadAudio>
+            <Data>dogdefeat</Data>
+            <Par1>\dogdft.ogg</Par1>
+            <Par2>
+            </Par2>
+            <CVarType>
+            </CVarType>
+            <CVar>
+            </CVar>
+            <CollisionEffectOther>False</CollisionEffectOther>
+          </LoadAudio>
+          <LoadAudio>
+            <Data>dogdrop</Data>
+            <Par1>\dogdrp.ogg</Par1>
+            <Par2>
+            </Par2>
+            <CVarType>
+            </CVarType>
+            <CVar>
+            </CVar>
+            <CollisionEffectOther>False</CollisionEffectOther>
+          </LoadAudio>
+          <LoadAudio>
+            <Data>dogjump</Data>
+            <Par1>\dogjmp.ogg</Par1>
+            <Par2>
+            </Par2>
+            <CVarType>
+            </CVarType>
+            <CVar>
+            </CVar>
+            <CollisionEffectOther>False</CollisionEffectOther>
+          </LoadAudio>
+          <LoadAudio>
+            <Data>dogland</Data>
+            <Par1>\doglnd.ogg</Par1>
+            <Par2>
+            </Par2>
+            <CVarType>
+            </CVarType>
+            <CVar>
+            </CVar>
+            <CollisionEffectOther>False</CollisionEffectOther>
+          </LoadAudio>
+          <LoadAudio>
+            <Data>dogwalk</Data>
+            <Par1>\dogwlk.ogg</Par1>
+            <Par2>
+            </Par2>
+            <CVarType>
+            </CVarType>
+            <CVar>
+            </CVar>
+            <CollisionEffectOther>False</CollisionEffectOther>
+          </LoadAudio>
+          <LoadAudio>
+            <Data>hit</Data>
+            <Par1>\hit.ogg</Par1>
+            <Par2>
+            </Par2>
+            <CVarType>
+            </CVarType>
+            <CVar>
+            </CVar>
+            <CollisionEffectOther>False</CollisionEffectOther>
+          </LoadAudio>
+          <LoadAudio>
+            <Data>levelstart</Data>
+            <Par1>\lvlstrt.ogg</Par1>
+            <Par2>
+            </Par2>
+            <CVarType>
+            </CVarType>
+            <CVar>
+            </CVar>
+            <CollisionEffectOther>False</CollisionEffectOther>
+          </LoadAudio>
+          <LoadAudio>
+            <Data>menuclick</Data>
+            <Par1>\menclk.ogg</Par1>
+            <Par2>
+            </Par2>
+            <CVarType>
+            </CVarType>
+            <CVar>
+            </CVar>
+            <CollisionEffectOther>False</CollisionEffectOther>
+          </LoadAudio>
+          <LoadAudio>
+            <Data>menusellect</Data>
+            <Par1>\mensel.ogg</Par1>
+            <Par2>
+            </Par2>
+            <CVarType>
+            </CVarType>
+            <CVar>
+            </CVar>
+            <CollisionEffectOther>False</CollisionEffectOther>
+          </LoadAudio>
+          <LoadAudio>
+            <Data>pebble</Data>
+            <Par1>\pebble.ogg</Par1>
+            <Par2>
+            </Par2>
+            <CVarType>
+            </CVarType>
+            <CVar>
+            </CVar>
+            <CollisionEffectOther>False</CollisionEffectOther>
+          </LoadAudio>
+          <LoadAudio>
+            <Data>pebbleeat</Data>
+            <Par1>\pebeat.ogg</Par1>
+            <Par2>
+            </Par2>
+            <CVarType>
+            </CVarType>
+            <CVar>
+            </CVar>
+            <CollisionEffectOther>False</CollisionEffectOther>
+          </LoadAudio>
+          <LoadAudio>
+            <Data>robotattack</Data>
+            <Par1>\rbtatk.ogg</Par1>
+            <Par2>
+            </Par2>
+            <CVarType>
+            </CVarType>
+            <CVar>
+            </CVar>
+            <CollisionEffectOther>False</CollisionEffectOther>
+          </LoadAudio>
+          <LoadAudio>
+            <Data>robotcalm</Data>
+            <Par1>\rbtclm.ogg</Par1>
+            <Par2>
+            </Par2>
+            <CVarType>
+            </CVarType>
+            <CVar>
+            </CVar>
+            <CollisionEffectOther>False</CollisionEffectOther>
+          </LoadAudio>
+          <LoadAudio>
+            <Data>robotcharge</Data>
+            <Par1>\rbtcrg.ogg</Par1>
+            <Par2>
+            </Par2>
+            <CVarType>
+            </CVarType>
+            <CVar>
+            </CVar>
+            <CollisionEffectOther>False</CollisionEffectOther>
+          </LoadAudio>
+          <LoadAudio>
+            <Data>robotrun</Data>
+            <Par1>\rbtrun.ogg</Par1>
+            <Par2>
+            </Par2>
+            <CVarType>
+            </CVarType>
+            <CVar>
+            </CVar>
+            <CollisionEffectOther>False</CollisionEffectOther>
+          </LoadAudio>
+          <LoadAudio>
+            <Data>robottaunt</Data>
+            <Par1>\rbttnt.ogg</Par1>
+            <Par2>
+            </Par2>
+            <CVarType>
+            </CVarType>
+            <CVar>
+            </CVar>
+            <CollisionEffectOther>False</CollisionEffectOther>
+          </LoadAudio>
+          <LoadAudio>
+            <Data>robotwalk</Data>
+            <Par1>\rbtwlk.ogg</Par1>
+            <Par2>
+            </Par2>
+            <CVarType>
+            </CVarType>
+            <CVar>
+            </CVar>
+            <CollisionEffectOther>False</CollisionEffectOther>
+          </LoadAudio>
+          <LoadAudio>
+            <Data>scoredown</Data>
+            <Par1>\scoredown.ogg</Par1>
+            <Par2>
+            </Par2>
+            <CVarType>
+            </CVarType>
+            <CVar>
+            </CVar>
+            <CollisionEffectOther>False</CollisionEffectOther>
+          </LoadAudio>
+          <LoadAudio>
+            <Data>scoreup</Data>
+            <Par1>\scoreup.ogg</Par1>
+            <Par2>
+            </Par2>
+            <CVarType>
+            </CVarType>
+            <CVar>
+            </CVar>
+            <CollisionEffectOther>False</CollisionEffectOther>
+          </LoadAudio>
+          <LoadAudio>
+            <Data>squirrelrun</Data>
+            <Par1>\sqlrun.ogg</Par1>
+            <Par2>
+            </Par2>
+            <CVarType>
+            </CVarType>
+            <CVar>
+            </CVar>
+            <CollisionEffectOther>False</CollisionEffectOther>
+          </LoadAudio>
+          <LoadAudio>
+            <Data>squirreltaunt</Data>
+            <Par1>\sqltnt.ogg</Par1>
+            <Par2>
+            </Par2>
+            <CVarType>
+            </CVarType>
+            <CVar>
+            </CVar>
+            <CollisionEffectOther>False</CollisionEffectOther>
+          </LoadAudio>
+          <LoadAudio>
+            <Data>squirrelwalk</Data>
+            <Par1>\sqlwlk.ogg</Par1>
+            <Par2>
+            </Par2>
+            <CVarType>
+            </CVarType>
+            <CVar>
+            </CVar>
+            <CollisionEffectOther>False</CollisionEffectOther>
+          </LoadAudio>
+          <ChangeAudio>
+            <Data>Ready. Press button 1 to start.</Data>
+            <Par1>0</Par1>
+            <Par2>
+            </Par2>
+            <CVarType>
+            </CVarType>
+            <CVar>
+            </CVar>
+            <CollisionEffectOther>False</CollisionEffectOther>
+          </ChangeAudio>
+          <Say>
+            <Data>
+            </Data>
+            <Par1>0</Par1>
+            <Par2>
+            </Par2>
+            <CVarType>
+            </CVarType>
+            <CVar>
+            </CVar>
+            <CollisionEffectOther>False</CollisionEffectOther>
+          </Say>
+        </CreationActions>
+        <DestructionActions />
+        <PeriodicalActions />
+        <CollisionActions />
+        <UpPressedActions />
+        <DownPressedActions />
+        <LeftPressedActions />
+        <RightPressedActions />
+        <Btn1PressedActions>
+          <StopTTS>
+            <Data>
+            </Data>
+            <Par1>0</Par1>
+            <Par2>
+            </Par2>
+            <CVarType>
+            </CVarType>
+            <CVar>
+            </CVar>
+            <CollisionEffectOther>False</CollisionEffectOther>
+          </StopTTS>
+          <RandomlySetGlobalVariable>
+            <Data>dogz</Data>
+            <Par1>0</Par1>
+            <Par2>30</Par2>
+            <CVarType>
+            </CVarType>
+            <CVar>
+            </CVar>
+            <CollisionEffectOther>False</CollisionEffectOther>
+          </RandomlySetGlobalVariable>
+          <RandomlySetGlobalVariable>
+            <Data>dogx</Data>
+            <Par1>0</Par1>
+            <Par2>30</Par2>
+            <CVarType>
+            </CVarType>
+            <CVar>
+            </CVar>
+            <CollisionEffectOther>False</CollisionEffectOther>
+          </RandomlySetGlobalVariable>
+          <CreateObject>
+            <Data>dog.dat</Data>
+            <Par1>
+            </Par1>
+            <Par2>
+            </Par2>
+            <CVarType>
+            </CVarType>
+            <CVar>
+            </CVar>
+            <CollisionEffectOther>False</CollisionEffectOther>
+          </CreateObject>
+          <CreateObject>
+            <Data>spawner.dat</Data>
+            <Par1>
+            </Par1>
+            <Par2>
+            </Par2>
+            <CVarType>
+            </CVarType>
+            <CVar>
+            </CVar>
+            <CollisionEffectOther>False</CollisionEffectOther>
+          </CreateObject>
+          <PlayAudio>
+            <Data>levelstart</Data>
+            <Par1>1</Par1>
+            <Par2>
+            </Par2>
+            <CVarType>
+            </CVarType>
+            <CVar>
+            </CVar>
+            <CollisionEffectOther>False</CollisionEffectOther>
+          </PlayAudio>
+        </Btn1PressedActions>
+        <Btn2PressedActions />
+        <Btn3PressedActions />
+        <Btn4PressedActions />
+        <Btn5PressedActions />
+        <UpReleasedActions />
+        <DownReleasedActions />
+        <LeftReleasedActions />
+        <RightReleasedActions />
+        <Btn1ReleasedActions />
+        <Btn2ReleasedActions />
+        <Btn3ReleasedActions />
+        <Btn4ReleasedActions />
+        <Btn5ReleasedActions />
+        <UpHeldActions />
+        <DownHeldActions />
+        <LeftHeldActions />
+        <RightHeldActions />
+        <Btn1HeldActions />
+        <Btn2HeldActions />
+        <Btn3HeldActions />
+        <Btn4HeldActions />
+        <Btn5HeldActions />
+        <AudioFinishedActions>
+          <DestroySelf>
+            <Data>
+            </Data>
+            <Par1>
+            </Par1>
+            <Par2>
+            </Par2>
+            <CVarType>
+            </CVarType>
+            <CVar>
+            </CVar>
+            <CollisionEffectOther>False</CollisionEffectOther>
+          </DestroySelf>
+        </AudioFinishedActions>
+      </Loader>
+      <pebble NodeType="GameObject">
+        <Name>pebble</Name>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <BX>0</BX>
+        <BY>0</BY>
+        <BZ>0</BZ>
+        <Delay>0.2</Delay>
+        <AudioLoop>True</AudioLoop>
+        <Local_Variables />
+        <CreationActions>
+          <SetGlobalVariable>
+            <Data>pebblethere</Data>
+            <Par1>1</Par1>
+            <Par2>
+            </Par2>
+            <CVarType>
+            </CVarType>
+            <CVar>
+            </CVar>
+            <CollisionEffectOther>False</CollisionEffectOther>
+          </SetGlobalVariable>
+          <PlayPosAudio>
+            <Data>pebble</Data>
+            <Par1>1</Par1>
+            <Par2>
+            </Par2>
+            <CVarType>
+            </CVarType>
+            <CVar>
+            </CVar>
+            <CollisionEffectOther>False</CollisionEffectOther>
+          </PlayPosAudio>
+        </CreationActions>
+        <DestructionActions>
+          <SetGlobalVariable>
+            <Data>pebblethere</Data>
+            <Par1>0</Par1>
+            <Par2>
+            </Par2>
+            <CVarType>
+            </CVarType>
+            <CVar>
+            </CVar>
+            <CollisionEffectOther>False</CollisionEffectOther>
+          </SetGlobalVariable>
+        </DestructionActions>
+        <PeriodicalActions />
+        <CollisionActions />
+        <UpPressedActions />
+        <DownPressedActions />
+        <LeftPressedActions />
+        <RightPressedActions />
+        <Btn1PressedActions />
+        <Btn2PressedActions />
+        <Btn3PressedActions />
+        <Btn4PressedActions />
+        <Btn5PressedActions />
+        <UpReleasedActions />
+        <DownReleasedActions />
+        <LeftReleasedActions />
+        <RightReleasedActions />
+        <Btn1ReleasedActions />
+        <Btn2ReleasedActions />
+        <Btn3ReleasedActions />
+        <Btn4ReleasedActions />
+        <Btn5ReleasedActions />
+        <UpHeldActions />
+        <DownHeldActions />
+        <LeftHeldActions />
+        <RightHeldActions />
+        <Btn1HeldActions />
+        <Btn2HeldActions />
+        <Btn3HeldActions />
+        <Btn4HeldActions />
+        <Btn5HeldActions />
+        <AudioFinishedActions />
+      </pebble>
+      <spawner NodeType="GameObject">
+        <Name>spawner</Name>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <BX>0</BX>
+        <BY>0</BY>
+        <BZ>0</BZ>
+        <Delay>10</Delay>
+        <AudioLoop>False</AudioLoop>
+        <Local_Variables />
+        <CreationActions />
+        <DestructionActions />
+        <PeriodicalActions>
+          <RandomlySetGlobalVariable>
+            <Data>spawnx</Data>
+            <Par1>0</Par1>
+            <Par2>30</Par2>
+            <CVarType>
+            </CVarType>
+            <CVar>
+            </CVar>
+            <CollisionEffectOther>False</CollisionEffectOther>
+          </RandomlySetGlobalVariable>
+          <RandomlySetGlobalVariable>
+            <Data>spawnz</Data>
+            <Par1>0</Par1>
+            <Par2>30</Par2>
+            <CVarType>
+            </CVarType>
+            <CVar>
+            </CVar>
+            <CollisionEffectOther>False</CollisionEffectOther>
+          </RandomlySetGlobalVariable>
+          <RandomlySetGlobalVariable>
+            <Data>spawnvar</Data>
+            <Par1>1</Par1>
+            <Par2>2</Par2>
+            <CVarType>
+            </CVarType>
+            <CVar>
+            </CVar>
+            <CollisionEffectOther>False</CollisionEffectOther>
+          </RandomlySetGlobalVariable>
+          <If>
+            <Data>G</Data>
+            <Par1>spawnvar</Par1>
+            <Par2>==</Par2>
+            <CVarType>C</CVarType>
+            <CVar>1</CVar>
+            <CollisionEffectOther>False</CollisionEffectOther>
+          </If>
+          <If>
+            <Data>G</Data>
+            <Par1>pebblethere</Par1>
+            <Par2>==</Par2>
+            <CVarType>C</CVarType>
+            <CVar>0</CVar>
+            <CollisionEffectOther>False</CollisionEffectOther>
+          </If>
+          <CreateObject>
+            <Data>pebble.dat</Data>
+            <Par1>
+            </Par1>
+            <Par2>
+            </Par2>
+            <CVarType>
+            </CVarType>
+            <CVar>
+            </CVar>
+            <CollisionEffectOther>False</CollisionEffectOther>
+          </CreateObject>
+          <SetX>
+            <Data>
+            </Data>
+            <Par1>spawnx</Par1>
+            <Par2>
+            </Par2>
+            <CVarType>
+            </CVarType>
+            <CVar>
+            </CVar>
+            <CollisionEffectOther>pebble</CollisionEffectOther>
+          </SetX>
+          <SetZ>
+            <Data>
+            </Data>
+            <Par1>spawnz</Par1>
+            <Par2>
+            </Par2>
+            <CVarType>
+            </CVarType>
+            <CVar>
+            </CVar>
+            <CollisionEffectOther>pebble</CollisionEffectOther>
+          </SetZ>
+          <End>
+            <Data>
+            </Data>
+            <Par1>
+            </Par1>
+            <Par2>
+            </Par2>
+            <CVarType>
+            </CVarType>
+            <CVar>
+            </CVar>
+            <CollisionEffectOther>False</CollisionEffectOther>
+          </End>
+          <End>
+            <Data>
+            </Data>
+            <Par1>
+            </Par1>
+            <Par2>
+            </Par2>
+            <CVarType>
+            </CVarType>
+            <CVar>
+            </CVar>
+            <CollisionEffectOther>False</CollisionEffectOther>
+          </End>
+          <If>
+            <Data>G</Data>
+            <Par1>spawnvar</Par1>
+            <Par2>==</Par2>
+            <CVarType>C</CVarType>
+            <CVar>2</CVar>
+            <CollisionEffectOther>False</CollisionEffectOther>
+          </If>
+          <If>
+            <Data>G</Data>
+            <Par1>robotthere</Par1>
+            <Par2>==</Par2>
+            <CVarType>C</CVarType>
+            <CVar>0</CVar>
+            <CollisionEffectOther>False</CollisionEffectOther>
+          </If>
+          <CreateObject>
+            <Data>robot.dat</Data>
+            <Par1>
+            </Par1>
+            <Par2>
+            </Par2>
+            <CVarType>
+            </CVarType>
+            <CVar>
+            </CVar>
+            <CollisionEffectOther>False</CollisionEffectOther>
+          </CreateObject>
+          <SetGlobalVariable>
+            <Data>robotx</Data>
+            <Par1>spawnx</Par1>
+            <Par2>
+            </Par2>
+            <CVarType>
+            </CVarType>
+            <CVar>
+            </CVar>
+            <CollisionEffectOther>False</CollisionEffectOther>
+          </SetGlobalVariable>
+          <SetGlobalVariable>
+            <Data>robotz</Data>
+            <Par1>spawnz</Par1>
+            <Par2>
+            </Par2>
+            <CVarType>
+            </CVarType>
+            <CVar>
+            </CVar>
+            <CollisionEffectOther>False</CollisionEffectOther>
+          </SetGlobalVariable>
+          <SetGlobalVariable>
+            <Data>robotthere</Data>
+            <Par1>1</Par1>
+            <Par2>
+            </Par2>
+            <CVarType>
+            </CVarType>
+            <CVar>
+            </CVar>
+            <CollisionEffectOther>False</CollisionEffectOther>
+          </SetGlobalVariable>
+          <End>
+            <Data>
+            </Data>
+            <Par1>
+            </Par1>
+            <Par2>
+            </Par2>
+            <CVarType>
+            </CVarType>
+            <CVar>
+            </CVar>
+            <CollisionEffectOther>False</CollisionEffectOther>
+          </End>
+          <End>
+            <Data>
+            </Data>
+            <Par1>
+            </Par1>
+            <Par2>
+            </Par2>
+            <CVarType>
+            </CVarType>
+            <CVar>
+            </CVar>
+            <CollisionEffectOther>False</CollisionEffectOther>
+          </End>
+        </PeriodicalActions>
+        <CollisionActions />
+        <UpPressedActions />
+        <DownPressedActions />
+        <LeftPressedActions />
+        <RightPressedActions />
+        <Btn1PressedActions />
+        <Btn2PressedActions />
+        <Btn3PressedActions>
+          <ChangeAudio>
+            <Data>robotbehavior</Data>
+            <Par1>0</Par1>
+            <Par2>
+            </Par2>
+            <CVarType>
+            </CVarType>
+            <CVar>
+            </CVar>
+            <CollisionEffectOther>False</CollisionEffectOther>
+          </ChangeAudio>
+          <Say>
+            <Data>
+            </Data>
+            <Par1>0</Par1>
+            <Par2>
+            </Par2>
+            <CVarType>
+            </CVarType>
+            <CVar>
+            </CVar>
+            <CollisionEffectOther>False</CollisionEffectOther>
+          </Say>
+        </Btn3PressedActions>
+        <Btn4PressedActions />
+        <Btn5PressedActions />
+        <UpReleasedActions />
+        <DownReleasedActions />
+        <LeftReleasedActions />
+        <RightReleasedActions />
+        <Btn1ReleasedActions />
+        <Btn2ReleasedActions />
+        <Btn3ReleasedActions />
+        <Btn4ReleasedActions />
+        <Btn5ReleasedActions />
+        <UpHeldActions />
+        <DownHeldActions />
+        <LeftHeldActions />
+        <RightHeldActions />
+        <Btn1HeldActions />
+        <Btn2HeldActions />
+        <Btn3HeldActions />
+        <Btn4HeldActions />
+        <Btn5HeldActions />
+        <AudioFinishedActions />
+      </spawner>
+      <dog NodeType="Folder">
+        <dog NodeType="GameObject">
+          <Name>dog</Name>
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+          <BX>0</BX>
+          <BY>0</BY>
+          <BZ>0</BZ>
+          <Delay>0.01</Delay>
+          <AudioLoop>False</AudioLoop>
+          <Local_Variables />
+          <CreationActions>
+            <CreateObject>
+              <Data>doghead.dat</Data>
+              <Par1>
+              </Par1>
+              <Par2>
+              </Par2>
+              <CVarType>
+              </CVarType>
+              <CVar>
+              </CVar>
+              <CollisionEffectOther>False</CollisionEffectOther>
+            </CreateObject>
+            <CreateObject>
+              <Data>dogpaws.dat</Data>
+              <Par1>
+              </Par1>
+              <Par2>
+              </Par2>
+              <CVarType>
+              </CVarType>
+              <CVar>
+              </CVar>
+              <CollisionEffectOther>False</CollisionEffectOther>
+            </CreateObject>
+            <CreateObject>
+              <Data>dogvision.dat</Data>
+              <Par1>
+              </Par1>
+              <Par2>
+              </Par2>
+              <CVarType>
+              </CVarType>
+              <CVar>
+              </CVar>
+              <CollisionEffectOther>False</CollisionEffectOther>
+            </CreateObject>
+          </CreationActions>
+          <DestructionActions />
+          <PeriodicalActions>
+            <SetX>
+              <Data>
+              </Data>
+              <Par1>dogx</Par1>
+              <Par2>
+              </Par2>
+              <CVarType>
+              </CVarType>
+              <CVar>
+              </CVar>
+              <CollisionEffectOther>False</CollisionEffectOther>
+            </SetX>
+            <SetY>
+              <Data>
+              </Data>
+              <Par1>dogy</Par1>
+              <Par2>
+              </Par2>
+              <CVarType>
+              </CVarType>
+              <CVar>
+              </CVar>
+              <CollisionEffectOther>False</CollisionEffectOther>
+            </SetY>
+            <SetZ>
+              <Data>
+              </Data>
+              <Par1>dogz</Par1>
+              <Par2>
+              </Par2>
+              <CVarType>
+              </CVarType>
+              <CVar>
+              </CVar>
+              <CollisionEffectOther>False</CollisionEffectOther>
+            </SetZ>
+          </PeriodicalActions>
+          <CollisionActions />
+          <UpPressedActions />
+          <DownPressedActions />
+          <LeftPressedActions />
+          <RightPressedActions />
+          <Btn1PressedActions />
+          <Btn2PressedActions />
+          <Btn3PressedActions />
+          <Btn4PressedActions />
+          <Btn5PressedActions />
+          <UpReleasedActions />
+          <DownReleasedActions />
+          <LeftReleasedActions />
+          <RightReleasedActions />
+          <Btn1ReleasedActions />
+          <Btn2ReleasedActions />
+          <Btn3ReleasedActions />
+          <Btn4ReleasedActions />
+          <Btn5ReleasedActions />
+          <UpHeldActions />
+          <DownHeldActions />
+          <LeftHeldActions />
+          <RightHeldActions />
+          <Btn1HeldActions />
+          <Btn2HeldActions />
+          <Btn3HeldActions />
+          <Btn4HeldActions />
+          <Btn5HeldActions />
+          <AudioFinishedActions />
+        </dog>
+        <doghead NodeType="GameObject">
+          <Name>doghead</Name>
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+          <BX>0</BX>
+          <BY>0</BY>
+          <BZ>0</BZ>
+          <Delay>0.01</Delay>
+          <AudioLoop>False</AudioLoop>
+          <Local_Variables />
+          <CreationActions />
+          <DestructionActions />
+          <PeriodicalActions>
+            <SetX>
+              <Data>
+              </Data>
+              <Par1>dogx</Par1>
+              <Par2>
+              </Par2>
+              <CVarType>
+              </CVarType>
+              <CVar>
+              </CVar>
+              <CollisionEffectOther>False</CollisionEffectOther>
+            </SetX>
+            <SetY>
+              <Data>
+              </Data>
+              <Par1>dogy</Par1>
+              <Par2>
+              </Par2>
+              <CVarType>
+              </CVarType>
+              <CVar>
+              </CVar>
+              <CollisionEffectOther>False</CollisionEffectOther>
+            </SetY>
+            <SetZ>
+              <Data>
+              </Data>
+              <Par1>dogz</Par1>
+              <Par2>
+              </Par2>
+              <CVarType>
+              </CVarType>
+              <CVar>
+              </CVar>
+              <CollisionEffectOther>False</CollisionEffectOther>
+            </SetZ>
+            <If>
+              <Data>Col</Data>
+              <Par1>pebble</Par1>
+              <Par2>==</Par2>
+              <CVarType>L</CVarType>
+              <CVar>
+              </CVar>
+              <CollisionEffectOther>False</CollisionEffectOther>
+            </If>
+            <DestroySelf>
+              <Data>
+              </Data>
+              <Par1>
+              </Par1>
+              <Par2>
+              </Par2>
+              <CVarType>
+              </CVarType>
+              <CVar>
+              </CVar>
+              <CollisionEffectOther>pebble</CollisionEffectOther>
+            </DestroySelf>
+            <RandomlyIncreaseGlobalVariable>
+              <Data>score</Data>
+              <Par1>1</Par1>
+              <Par2>5</Par2>
+              <CVarType>
+              </CVarType>
+              <CVar>
+              </CVar>
+              <CollisionEffectOther>False</CollisionEffectOther>
+            </RandomlyIncreaseGlobalVariable>
+            <PlayAudio>
+              <Data>pebbleeat</Data>
+              <Par1>1</Par1>
+              <Par2>
+              </Par2>
+              <CVarType>
+              </CVarType>
+              <CVar>
+              </CVar>
+              <CollisionEffectOther>False</CollisionEffectOther>
+            </PlayAudio>
+            <PlayAudio>
+              <Data>scoreup</Data>
+              <Par1>1</Par1>
+              <Par2>
+              </Par2>
+              <CVarType>
+              </CVarType>
+              <CVar>
+              </CVar>
+              <CollisionEffectOther>spawner</CollisionEffectOther>
+            </PlayAudio>
+            <End>
+              <Data>
+              </Data>
+              <Par1>
+              </Par1>
+              <Par2>
+              </Par2>
+              <CVarType>
+              </CVarType>
+              <CVar>
+              </CVar>
+              <CollisionEffectOther>False</CollisionEffectOther>
+            </End>
+          </PeriodicalActions>
+          <CollisionActions />
+          <UpPressedActions />
+          <DownPressedActions />
+          <LeftPressedActions />
+          <RightPressedActions />
+          <Btn1PressedActions>
+            <PlayPosAudio>
+              <Data>dogbark</Data>
+              <Par1>1</Par1>
+              <Par2>
+              </Par2>
+              <CVarType>
+              </CVarType>
+              <CVar>
+              </CVar>
+              <CollisionEffectOther>False</CollisionEffectOther>
+            </PlayPosAudio>
+          </Btn1PressedActions>
+          <Btn2PressedActions />
+          <Btn3PressedActions />
+          <Btn4PressedActions />
+          <Btn5PressedActions />
+          <UpReleasedActions />
+          <DownReleasedActions />
+          <LeftReleasedActions />
+          <RightReleasedActions />
+          <Btn1ReleasedActions />
+          <Btn2ReleasedActions />
+          <Btn3ReleasedActions />
+          <Btn4ReleasedActions />
+          <Btn5ReleasedActions />
+          <UpHeldActions />
+          <DownHeldActions />
+          <LeftHeldActions />
+          <RightHeldActions />
+          <Btn1HeldActions />
+          <Btn2HeldActions />
+          <Btn3HeldActions />
+          <Btn4HeldActions />
+          <Btn5HeldActions />
+          <AudioFinishedActions />
+        </doghead>
+        <dogpaws NodeType="GameObject">
+          <Name>dogpaws</Name>
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+          <BX>0</BX>
+          <BY>0</BY>
+          <BZ>0</BZ>
+          <Delay>0.01</Delay>
+          <AudioLoop>False</AudioLoop>
+          <Local_Variables />
+          <CreationActions>
+            <SetListener>
+              <Data>
+              </Data>
+              <Par1>
+              </Par1>
+              <Par2>
+              </Par2>
+              <CVarType>
+              </CVarType>
+              <CVar>
+              </CVar>
+              <CollisionEffectOther>False</CollisionEffectOther>
+            </SetListener>
+            <SetRolloff>
+              <Data>
+              </Data>
+              <Par1>1</Par1>
+              <Par2>
+              </Par2>
+              <CVarType>
+              </CVarType>
+              <CVar>
+              </CVar>
+              <CollisionEffectOther>False</CollisionEffectOther>
+            </SetRolloff>
+            <SetRefDistance>
+              <Data>
+              </Data>
+              <Par1>1</Par1>
+              <Par2>
+              </Par2>
+              <CVarType>
+              </CVarType>
+              <CVar>
+              </CVar>
+              <CollisionEffectOther>False</CollisionEffectOther>
+            </SetRefDistance>
+          </CreationActions>
+          <DestructionActions />
+          <PeriodicalActions>
+            <SetX>
+              <Data>
+              </Data>
+              <Par1>dogx</Par1>
+              <Par2>
+              </Par2>
+              <CVarType>
+              </CVarType>
+              <CVar>
+              </CVar>
+              <CollisionEffectOther>False</CollisionEffectOther>
+            </SetX>
+            <SetY>
+              <Data>
+              </Data>
+              <Par1>dogy</Par1>
+              <Par2>
+              </Par2>
+              <CVarType>
+              </CVarType>
+              <CVar>
+              </CVar>
+              <CollisionEffectOther>False</CollisionEffectOther>
+            </SetY>
+            <SetZ>
+              <Data>
+              </Data>
+              <Par1>dogz</Par1>
+              <Par2>
+              </Par2>
+              <CVarType>
+              </CVarType>
+              <CVar>
+              </CVar>
+              <CollisionEffectOther>False</CollisionEffectOther>
+            </SetZ>
+          </PeriodicalActions>
+          <CollisionActions />
+          <UpPressedActions>
+            <CreateObject>
+              <Data>dogforward.dat</Data>
+              <Par1>
+              </Par1>
+              <Par2>
+              </Par2>
+              <CVarType>
+              </CVarType>
+              <CVar>
+              </CVar>
+              <CollisionEffectOther>False</CollisionEffectOther>
+            </CreateObject>
+          </UpPressedActions>
+          <DownPressedActions>
+            <CreateObject>
+              <Data>dogbackward.dat</Data>
+              <Par1>
+              </Par1>
+              <Par2>
+              </Par2>
+              <CVarType>
+              </CVarType>
+              <CVar>
+              </CVar>
+              <CollisionEffectOther>False</CollisionEffectOther>
+            </CreateObject>
+          </DownPressedActions>
+          <LeftPressedActions>
+            <CreateObject>
+              <Data>dogleft.dat</Data>
+              <Par1>
+              </Par1>
+              <Par2>
+              </Par2>
+              <CVarType>
+              </CVarType>
+              <CVar>
+              </CVar>
+              <CollisionEffectOther>False</CollisionEffectOther>
+            </CreateObject>
+          </LeftPressedActions>
+          <RightPressedActions>
+            <CreateObject>
+              <Data>dogright.dat</Data>
+              <Par1>
+              </Par1>
+              <Par2>
+              </Par2>
+              <CVarType>
+              </CVarType>
+              <CVar>
+              </CVar>
+              <CollisionEffectOther>False</CollisionEffectOther>
+            </CreateObject>
+          </RightPressedActions>
+          <Btn1PressedActions />
+          <Btn2PressedActions />
+          <Btn3PressedActions />
+          <Btn4PressedActions />
+          <Btn5PressedActions />
+          <UpReleasedActions>
+            <DestroySelf>
+              <Data>
+              </Data>
+              <Par1>
+              </Par1>
+              <Par2>
+              </Par2>
+              <CVarType>
+              </CVarType>
+              <CVar>
+              </CVar>
+              <CollisionEffectOther>dogforward</CollisionEffectOther>
+            </DestroySelf>
+          </UpReleasedActions>
+          <DownReleasedActions>
+            <DestroySelf>
+              <Data>
+              </Data>
+              <Par1>
+              </Par1>
+              <Par2>
+              </Par2>
+              <CVarType>
+              </CVarType>
+              <CVar>
+              </CVar>
+              <CollisionEffectOther>dogbackward</CollisionEffectOther>
+            </DestroySelf>
+          </DownReleasedActions>
+          <LeftReleasedActions>
+            <DestroySelf>
+              <Data>
+              </Data>
+              <Par1>
+              </Par1>
+              <Par2>
+              </Par2>
+              <CVarType>
+              </CVarType>
+              <CVar>
+              </CVar>
+              <CollisionEffectOther>dogleft</CollisionEffectOther>
+            </DestroySelf>
+          </LeftReleasedActions>
+          <RightReleasedActions>
+            <DestroySelf>
+              <Data>
+              </Data>
+              <Par1>
+              </Par1>
+              <Par2>
+              </Par2>
+              <CVarType>
+              </CVarType>
+              <CVar>
+              </CVar>
+              <CollisionEffectOther>dogright</CollisionEffectOther>
+            </DestroySelf>
+          </RightReleasedActions>
+          <Btn1ReleasedActions />
+          <Btn2ReleasedActions />
+          <Btn3ReleasedActions />
+          <Btn4ReleasedActions />
+          <Btn5ReleasedActions />
+          <UpHeldActions />
+          <DownHeldActions />
+          <LeftHeldActions />
+          <RightHeldActions />
+          <Btn1HeldActions />
+          <Btn2HeldActions />
+          <Btn3HeldActions />
+          <Btn4HeldActions />
+          <Btn5HeldActions />
+          <AudioFinishedActions />
+        </dogpaws>
+        <dogstep NodeType="Folder">
+          <dogforward NodeType="GameObject">
+            <Name>dogforward</Name>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+            <BX>0</BX>
+            <BY>0</BY>
+            <BZ>0</BZ>
+            <Delay>0.15</Delay>
+            <AudioLoop>False</AudioLoop>
+            <Local_Variables />
+            <CreationActions />
+            <DestructionActions />
+            <PeriodicalActions>
+              <If>
+                <Data>G</Data>
+                <Par1>dogz</Par1>
+                <Par2>&lt;</Par2>
+                <CVarType>C</CVarType>
+                <CVar>30</CVar>
+                <CollisionEffectOther>False</CollisionEffectOther>
+              </If>
+              <IncreaseGlobalVariable>
+                <Data>dogz</Data>
+                <Par1>1</Par1>
+                <Par2>
+                </Par2>
+                <CVarType>
+                </CVarType>
+                <CVar>
+                </CVar>
+                <CollisionEffectOther>False</CollisionEffectOther>
+              </IncreaseGlobalVariable>
+              <PlayPosAudio>
+                <Data>dogwalk</Data>
+                <Par1>1</Par1>
+                <Par2>
+                </Par2>
+                <CVarType>
+                </CVarType>
+                <CVar>
+                </CVar>
+                <CollisionEffectOther>False</CollisionEffectOther>
+              </PlayPosAudio>
+              <End>
+                <Data>
+                </Data>
+                <Par1>
+                </Par1>
+                <Par2>
+                </Par2>
+                <CVarType>
+                </CVarType>
+                <CVar>
+                </CVar>
+                <CollisionEffectOther>False</CollisionEffectOther>
+              </End>
+            </PeriodicalActions>
+            <CollisionActions />
+            <UpPressedActions />
+            <DownPressedActions />
+            <LeftPressedActions />
+            <RightPressedActions />
+            <Btn1PressedActions />
+            <Btn2PressedActions />
+            <Btn3PressedActions />
+            <Btn4PressedActions />
+            <Btn5PressedActions />
+            <UpReleasedActions />
+            <DownReleasedActions />
+            <LeftReleasedActions />
+            <RightReleasedActions />
+            <Btn1ReleasedActions />
+            <Btn2ReleasedActions />
+            <Btn3ReleasedActions />
+            <Btn4ReleasedActions />
+            <Btn5ReleasedActions />
+            <UpHeldActions />
+            <DownHeldActions />
+            <LeftHeldActions />
+            <RightHeldActions />
+            <Btn1HeldActions />
+            <Btn2HeldActions />
+            <Btn3HeldActions />
+            <Btn4HeldActions />
+            <Btn5HeldActions />
+            <AudioFinishedActions />
+          </dogforward>
+          <dogbackward NodeType="GameObject">
+            <Name>dogbackward</Name>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+            <BX>0</BX>
+            <BY>0</BY>
+            <BZ>0</BZ>
+            <Delay>0.15</Delay>
+            <AudioLoop>False</AudioLoop>
+            <Local_Variables />
+            <CreationActions />
+            <DestructionActions />
+            <PeriodicalActions>
+              <If>
+                <Data>G</Data>
+                <Par1>dogz</Par1>
+                <Par2>&gt;</Par2>
+                <CVarType>C</CVarType>
+                <CVar>0</CVar>
+                <CollisionEffectOther>False</CollisionEffectOther>
+              </If>
+              <DecreaseGlobalVariable>
+                <Data>dogz</Data>
+                <Par1>1</Par1>
+                <Par2>
+                </Par2>
+                <CVarType>
+                </CVarType>
+                <CVar>
+                </CVar>
+                <CollisionEffectOther>False</CollisionEffectOther>
+              </DecreaseGlobalVariable>
+              <PlayPosAudio>
+                <Data>dogwalk</Data>
+                <Par1>1</Par1>
+                <Par2>
+                </Par2>
+                <CVarType>
+                </CVarType>
+                <CVar>
+                </CVar>
+                <CollisionEffectOther>False</CollisionEffectOther>
+              </PlayPosAudio>
+              <End>
+                <Data>
+                </Data>
+                <Par1>
+                </Par1>
+                <Par2>
+                </Par2>
+                <CVarType>
+                </CVarType>
+                <CVar>
+                </CVar>
+                <CollisionEffectOther>False</CollisionEffectOther>
+              </End>
+            </PeriodicalActions>
+            <CollisionActions />
+            <UpPressedActions />
+            <DownPressedActions />
+            <LeftPressedActions />
+            <RightPressedActions />
+            <Btn1PressedActions />
+            <Btn2PressedActions />
+            <Btn3PressedActions />
+            <Btn4PressedActions />
+            <Btn5PressedActions />
+            <UpReleasedActions />
+            <DownReleasedActions />
+            <LeftReleasedActions />
+            <RightReleasedActions />
+            <Btn1ReleasedActions />
+            <Btn2ReleasedActions />
+            <Btn3ReleasedActions />
+            <Btn4ReleasedActions />
+            <Btn5ReleasedActions />
+            <UpHeldActions />
+            <DownHeldActions />
+            <LeftHeldActions />
+            <RightHeldActions />
+            <Btn1HeldActions />
+            <Btn2HeldActions />
+            <Btn3HeldActions />
+            <Btn4HeldActions />
+            <Btn5HeldActions />
+            <AudioFinishedActions />
+          </dogbackward>
+          <dogleft NodeType="GameObject">
+            <Name>dogleft</Name>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+            <BX>0</BX>
+            <BY>0</BY>
+            <BZ>0</BZ>
+            <Delay>0.15</Delay>
+            <AudioLoop>False</AudioLoop>
+            <Local_Variables />
+            <CreationActions />
+            <DestructionActions />
+            <PeriodicalActions>
+              <If>
+                <Data>G</Data>
+                <Par1>dogx</Par1>
+                <Par2>&gt;</Par2>
+                <CVarType>C</CVarType>
+                <CVar>0</CVar>
+                <CollisionEffectOther>False</CollisionEffectOther>
+              </If>
+              <DecreaseGlobalVariable>
+                <Data>dogx</Data>
+                <Par1>1</Par1>
+                <Par2>
+                </Par2>
+                <CVarType>
+                </CVarType>
+                <CVar>
+                </CVar>
+                <CollisionEffectOther>False</CollisionEffectOther>
+              </DecreaseGlobalVariable>
+              <PlayPosAudio>
+                <Data>dogwalk</Data>
+                <Par1>1</Par1>
+                <Par2>
+                </Par2>
+                <CVarType>
+                </CVarType>
+                <CVar>
+                </CVar>
+                <CollisionEffectOther>False</CollisionEffectOther>
+              </PlayPosAudio>
+              <End>
+                <Data>
+                </Data>
+                <Par1>
+                </Par1>
+                <Par2>
+                </Par2>
+                <CVarType>
+                </CVarType>
+                <CVar>
+                </CVar>
+                <CollisionEffectOther>False</CollisionEffectOther>
+              </End>
+            </PeriodicalActions>
+            <CollisionActions />
+            <UpPressedActions />
+            <DownPressedActions />
+            <LeftPressedActions />
+            <RightPressedActions />
+            <Btn1PressedActions />
+            <Btn2PressedActions />
+            <Btn3PressedActions />
+            <Btn4PressedActions />
+            <Btn5PressedActions />
+            <UpReleasedActions />
+            <DownReleasedActions />
+            <LeftReleasedActions />
+            <RightReleasedActions />
+            <Btn1ReleasedActions />
+            <Btn2ReleasedActions />
+            <Btn3ReleasedActions />
+            <Btn4ReleasedActions />
+            <Btn5ReleasedActions />
+            <UpHeldActions />
+            <DownHeldActions />
+            <LeftHeldActions />
+            <RightHeldActions />
+            <Btn1HeldActions />
+            <Btn2HeldActions />
+            <Btn3HeldActions />
+            <Btn4HeldActions />
+            <Btn5HeldActions />
+            <AudioFinishedActions />
+          </dogleft>
+          <dogright NodeType="GameObject">
+            <Name>dogright</Name>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+            <BX>0</BX>
+            <BY>0</BY>
+            <BZ>0</BZ>
+            <Delay>0.15</Delay>
+            <AudioLoop>False</AudioLoop>
+            <Local_Variables />
+            <CreationActions />
+            <DestructionActions />
+            <PeriodicalActions>
+              <If>
+                <Data>G</Data>
+                <Par1>dogx</Par1>
+                <Par2>&lt;</Par2>
+                <CVarType>C</CVarType>
+                <CVar>30</CVar>
+                <CollisionEffectOther>False</CollisionEffectOther>
+              </If>
+              <IncreaseGlobalVariable>
+                <Data>dogx</Data>
+                <Par1>1</Par1>
+                <Par2>
+                </Par2>
+                <CVarType>
+                </CVarType>
+                <CVar>
+                </CVar>
+                <CollisionEffectOther>False</CollisionEffectOther>
+              </IncreaseGlobalVariable>
+              <PlayPosAudio>
+                <Data>dogwalk</Data>
+                <Par1>1</Par1>
+                <Par2>
+                </Par2>
+                <CVarType>
+                </CVarType>
+                <CVar>
+                </CVar>
+                <CollisionEffectOther>False</CollisionEffectOther>
+              </PlayPosAudio>
+              <End>
+                <Data>
+                </Data>
+                <Par1>
+                </Par1>
+                <Par2>
+                </Par2>
+                <CVarType>
+                </CVarType>
+                <CVar>
+                </CVar>
+                <CollisionEffectOther>False</CollisionEffectOther>
+              </End>
+            </PeriodicalActions>
+            <CollisionActions />
+            <UpPressedActions />
+            <DownPressedActions />
+            <LeftPressedActions />
+            <RightPressedActions />
+            <Btn1PressedActions />
+            <Btn2PressedActions />
+            <Btn3PressedActions />
+            <Btn4PressedActions />
+            <Btn5PressedActions />
+            <UpReleasedActions />
+            <DownReleasedActions />
+            <LeftReleasedActions />
+            <RightReleasedActions />
+            <Btn1ReleasedActions />
+            <Btn2ReleasedActions />
+            <Btn3ReleasedActions />
+            <Btn4ReleasedActions />
+            <Btn5ReleasedActions />
+            <UpHeldActions />
+            <DownHeldActions />
+            <LeftHeldActions />
+            <RightHeldActions />
+            <Btn1HeldActions />
+            <Btn2HeldActions />
+            <Btn3HeldActions />
+            <Btn4HeldActions />
+            <Btn5HeldActions />
+            <AudioFinishedActions />
+          </dogright>
+        </dogstep>
+        <dogvision NodeType="GameObject">
+          <Name>dogvision</Name>
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+          <BX>10</BX>
+          <BY>10</BY>
+          <BZ>10</BZ>
+          <Delay>0.01</Delay>
+          <AudioLoop>False</AudioLoop>
+          <Local_Variables />
+          <CreationActions />
+          <DestructionActions />
+          <PeriodicalActions>
+            <SetX>
+              <Data>
+              </Data>
+              <Par1>dogx</Par1>
+              <Par2>
+              </Par2>
+              <CVarType>
+              </CVarType>
+              <CVar>
+              </CVar>
+              <CollisionEffectOther>False</CollisionEffectOther>
+            </SetX>
+            <SetZ>
+              <Data>
+              </Data>
+              <Par1>dogz</Par1>
+              <Par2>
+              </Par2>
+              <CVarType>
+              </CVarType>
+              <CVar>
+              </CVar>
+              <CollisionEffectOther>False</CollisionEffectOther>
+            </SetZ>
+          </PeriodicalActions>
+          <CollisionActions />
+          <UpPressedActions />
+          <DownPressedActions />
+          <LeftPressedActions />
+          <RightPressedActions />
+          <Btn1PressedActions />
+          <Btn2PressedActions />
+          <Btn3PressedActions />
+          <Btn4PressedActions>
+            <DecreaseGlobalVariable>
+              <Data>robotbehavior</Data>
+              <Par1>1</Par1>
+              <Par2>
+              </Par2>
+              <CVarType>
+              </CVarType>
+              <CVar>
+              </CVar>
+              <CollisionEffectOther>False</CollisionEffectOther>
+            </DecreaseGlobalVariable>
+          </Btn4PressedActions>
+          <Btn5PressedActions>
+            <IncreaseGlobalVariable>
+              <Data>robotbehavior</Data>
+              <Par1>1</Par1>
+              <Par2>
+              </Par2>
+              <CVarType>
+              </CVarType>
+              <CVar>
+              </CVar>
+              <CollisionEffectOther>False</CollisionEffectOther>
+            </IncreaseGlobalVariable>
+          </Btn5PressedActions>
+          <UpReleasedActions />
+          <DownReleasedActions />
+          <LeftReleasedActions />
+          <RightReleasedActions />
+          <Btn1ReleasedActions />
+          <Btn2ReleasedActions />
+          <Btn3ReleasedActions />
+          <Btn4ReleasedActions />
+          <Btn5ReleasedActions />
+          <UpHeldActions />
+          <DownHeldActions />
+          <LeftHeldActions />
+          <RightHeldActions />
+          <Btn1HeldActions />
+          <Btn2HeldActions />
+          <Btn3HeldActions />
+          <Btn4HeldActions />
+          <Btn5HeldActions />
+          <AudioFinishedActions />
+        </dogvision>
+      </dog>
+      <enemies NodeType="Folder">
+        <robot NodeType="Folder">
+          <robot NodeType="GameObject">
+            <Name>robot</Name>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+            <BX>0</BX>
+            <BY>0</BY>
+            <BZ>0</BZ>
+            <Delay>0.01</Delay>
+            <AudioLoop>False</AudioLoop>
+            <Local_Variables />
+            <CreationActions>
+              <SetGlobalVariable>
+                <Data>robotthere</Data>
+                <Par1>1</Par1>
+                <Par2>
+                </Par2>
+                <CVarType>
+                </CVarType>
+                <CVar>
+                </CVar>
+                <CollisionEffectOther>False</CollisionEffectOther>
+              </SetGlobalVariable>
+              <CreateObject>
+                <Data>robotfeet.dat</Data>
+                <Par1>
+                </Par1>
+                <Par2>
+                </Par2>
+                <CVarType>
+                </CVarType>
+                <CVar>
+                </CVar>
+                <CollisionEffectOther>False</CollisionEffectOther>
+              </CreateObject>
+              <CreateObject>
+                <Data>robothead.dat</Data>
+                <Par1>
+                </Par1>
+                <Par2>
+                </Par2>
+                <CVarType>
+                </CVarType>
+                <CVar>
+                </CVar>
+                <CollisionEffectOther>False</CollisionEffectOther>
+              </CreateObject>
+              <CreateObject>
+                <Data>robothands.dat</Data>
+                <Par1>
+                </Par1>
+                <Par2>
+                </Par2>
+                <CVarType>
+                </CVarType>
+                <CVar>
+                </CVar>
+                <CollisionEffectOther>False</CollisionEffectOther>
+              </CreateObject>
+            </CreationActions>
+            <DestructionActions>
+              <SetGlobalVariable>
+                <Data>robotthere</Data>
+                <Par1>0</Par1>
+                <Par2>
+                </Par2>
+                <CVarType>
+                </CVarType>
+                <CVar>
+                </CVar>
+                <CollisionEffectOther>False</CollisionEffectOther>
+              </SetGlobalVariable>
+              <PlayAudio>
+                <Data>scoreup</Data>
+                <Par1>1</Par1>
+                <Par2>
+                </Par2>
+                <CVarType>
+                </CVarType>
+                <CVar>
+                </CVar>
+                <CollisionEffectOther>False</CollisionEffectOther>
+              </PlayAudio>
+            </DestructionActions>
+            <PeriodicalActions>
+              <SetX>
+                <Data>
+                </Data>
+                <Par1>robotx</Par1>
+                <Par2>
+                </Par2>
+                <CVarType>
+                </CVarType>
+                <CVar>
+                </CVar>
+                <CollisionEffectOther>False</CollisionEffectOther>
+              </SetX>
+              <SetZ>
+                <Data>
+                </Data>
+                <Par1>robotz</Par1>
+                <Par2>
+                </Par2>
+                <CVarType>
+                </CVarType>
+                <CVar>
+                </CVar>
+                <CollisionEffectOther>False</CollisionEffectOther>
+              </SetZ>
+            </PeriodicalActions>
+            <CollisionActions />
+            <UpPressedActions />
+            <DownPressedActions />
+            <LeftPressedActions />
+            <RightPressedActions />
+            <Btn1PressedActions />
+            <Btn2PressedActions />
+            <Btn3PressedActions />
+            <Btn4PressedActions />
+            <Btn5PressedActions />
+            <UpReleasedActions />
+            <DownReleasedActions />
+            <LeftReleasedActions />
+            <RightReleasedActions />
+            <Btn1ReleasedActions />
+            <Btn2ReleasedActions />
+            <Btn3ReleasedActions />
+            <Btn4ReleasedActions />
+            <Btn5ReleasedActions />
+            <UpHeldActions />
+            <DownHeldActions />
+            <LeftHeldActions />
+            <RightHeldActions />
+            <Btn1HeldActions />
+            <Btn2HeldActions />
+            <Btn3HeldActions />
+            <Btn4HeldActions />
+            <Btn5HeldActions />
+            <AudioFinishedActions />
+          </robot>
+          <robothead NodeType="GameObject">
+            <Name>robothead</Name>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+            <BX>0</BX>
+            <BY>0</BY>
+            <BZ>0</BZ>
+            <Delay>0.01</Delay>
+            <AudioLoop>False</AudioLoop>
+            <Local_Variables />
+            <CreationActions>
+              <If>
+                <Data>G</Data>
+                <Par1>robotbehavior</Par1>
+                <Par2>==</Par2>
+                <CVarType>C</CVarType>
+                <CVar>1</CVar>
+                <CollisionEffectOther>False</CollisionEffectOther>
+              </If>
+              <PlayPosAudio>
+                <Data>robotcalm</Data>
+                <Par1>1</Par1>
+                <Par2>
+                </Par2>
+                <CVarType>
+                </CVarType>
+                <CVar>
+                </CVar>
+                <CollisionEffectOther>False</CollisionEffectOther>
+              </PlayPosAudio>
+              <End>
+                <Data>
+                </Data>
+                <Par1>
+                </Par1>
+                <Par2>
+                </Par2>
+                <CVarType>
+                </CVarType>
+                <CVar>
+                </CVar>
+                <CollisionEffectOther>False</CollisionEffectOther>
+              </End>
+              <If>
+                <Data>G</Data>
+                <Par1>robotbehavior</Par1>
+                <Par2>==</Par2>
+                <CVarType>C</CVarType>
+                <CVar>2</CVar>
+                <CollisionEffectOther>False</CollisionEffectOther>
+              </If>
+              <PlayPosAudio>
+                <Data>robottaunt</Data>
+                <Par1>1</Par1>
+                <Par2>
+                </Par2>
+                <CVarType>
+                </CVarType>
+                <CVar>
+                </CVar>
+                <CollisionEffectOther>False</CollisionEffectOther>
+              </PlayPosAudio>
+              <End>
+                <Data>
+                </Data>
+                <Par1>
+                </Par1>
+                <Par2>
+                </Par2>
+                <CVarType>
+                </CVarType>
+                <CVar>
+                </CVar>
+                <CollisionEffectOther>False</CollisionEffectOther>
+              </End>
+              <If>
+                <Data>G</Data>
+                <Par1>robotbehavior</Par1>
+                <Par2>==</Par2>
+                <CVarType>C</CVarType>
+                <CVar>3</CVar>
+                <CollisionEffectOther>False</CollisionEffectOther>
+              </If>
+              <PlayPosAudio>
+                <Data>robotrun</Data>
+                <Par1>1</Par1>
+                <Par2>
+                </Par2>
+                <CVarType>
+                </CVarType>
+                <CVar>
+                </CVar>
+                <CollisionEffectOther>False</CollisionEffectOther>
+              </PlayPosAudio>
+              <End>
+                <Data>
+                </Data>
+                <Par1>
+                </Par1>
+                <Par2>
+                </Par2>
+                <CVarType>
+                </CVarType>
+                <CVar>
+                </CVar>
+                <CollisionEffectOther>False</CollisionEffectOther>
+              </End>
+            </CreationActions>
+            <DestructionActions />
+            <PeriodicalActions>
+              <SetX>
+                <Data>
+                </Data>
+                <Par1>robotx</Par1>
+                <Par2>
+                </Par2>
+                <CVarType>
+                </CVarType>
+                <CVar>
+                </CVar>
+                <CollisionEffectOther>False</CollisionEffectOther>
+              </SetX>
+              <SetZ>
+                <Data>
+                </Data>
+                <Par1>robotz</Par1>
+                <Par2>
+                </Par2>
+                <CVarType>
+                </CVarType>
+                <CVar>
+                </CVar>
+                <CollisionEffectOther>False</CollisionEffectOther>
+              </SetZ>
+              <If>
+                <Data>Col</Data>
+                <Par1>dogvision</Par1>
+                <Par2>==</Par2>
+                <CVarType>L</CVarType>
+                <CVar>
+                </CVar>
+                <CollisionEffectOther>False</CollisionEffectOther>
+              </If>
+              <SetGlobalVariable>
+                <Data>robotbehavior</Data>
+                <Par1>2</Par1>
+                <Par2>
+                </Par2>
+                <CVarType>
+                </CVarType>
+                <CVar>
+                </CVar>
+                <CollisionEffectOther>False</CollisionEffectOther>
+              </SetGlobalVariable>
+              <End>
+                <Data>
+                </Data>
+                <Par1>
+                </Par1>
+                <Par2>
+                </Par2>
+                <CVarType>
+                </CVarType>
+                <CVar>
+                </CVar>
+                <CollisionEffectOther>False</CollisionEffectOther>
+              </End>
+            </PeriodicalActions>
+            <CollisionActions />
+            <UpPressedActions />
+            <DownPressedActions />
+            <LeftPressedActions />
+            <RightPressedActions />
+            <Btn1PressedActions />
+            <Btn2PressedActions />
+            <Btn3PressedActions />
+            <Btn4PressedActions />
+            <Btn5PressedActions />
+            <UpReleasedActions />
+            <DownReleasedActions />
+            <LeftReleasedActions />
+            <RightReleasedActions />
+            <Btn1ReleasedActions />
+            <Btn2ReleasedActions />
+            <Btn3ReleasedActions />
+            <Btn4ReleasedActions />
+            <Btn5ReleasedActions />
+            <UpHeldActions />
+            <DownHeldActions />
+            <LeftHeldActions />
+            <RightHeldActions />
+            <Btn1HeldActions />
+            <Btn2HeldActions />
+            <Btn3HeldActions />
+            <Btn4HeldActions />
+            <Btn5HeldActions />
+            <AudioFinishedActions />
+          </robothead>
+          <robothands NodeType="GameObject">
+            <Name>robothands</Name>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+            <BX>0</BX>
+            <BY>0</BY>
+            <BZ>0</BZ>
+            <Delay>0.01</Delay>
+            <AudioLoop>False</AudioLoop>
+            <Local_Variables />
+            <CreationActions />
+            <DestructionActions />
+            <PeriodicalActions>
+              <SetX>
+                <Data>
+                </Data>
+                <Par1>robotx</Par1>
+                <Par2>
+                </Par2>
+                <CVarType>
+                </CVarType>
+                <CVar>
+                </CVar>
+                <CollisionEffectOther>False</CollisionEffectOther>
+              </SetX>
+              <SetZ>
+                <Data>
+                </Data>
+                <Par1>robotz</Par1>
+                <Par2>
+                </Par2>
+                <CVarType>
+                </CVarType>
+                <CVar>
+                </CVar>
+                <CollisionEffectOther>False</CollisionEffectOther>
+              </SetZ>
+            </PeriodicalActions>
+            <CollisionActions />
+            <UpPressedActions />
+            <DownPressedActions />
+            <LeftPressedActions />
+            <RightPressedActions />
+            <Btn1PressedActions />
+            <Btn2PressedActions />
+            <Btn3PressedActions />
+            <Btn4PressedActions />
+            <Btn5PressedActions />
+            <UpReleasedActions />
+            <DownReleasedActions />
+            <LeftReleasedActions />
+            <RightReleasedActions />
+            <Btn1ReleasedActions />
+            <Btn2ReleasedActions />
+            <Btn3ReleasedActions />
+            <Btn4ReleasedActions />
+            <Btn5ReleasedActions />
+            <UpHeldActions />
+            <DownHeldActions />
+            <LeftHeldActions />
+            <RightHeldActions />
+            <Btn1HeldActions />
+            <Btn2HeldActions />
+            <Btn3HeldActions />
+            <Btn4HeldActions />
+            <Btn5HeldActions />
+            <AudioFinishedActions />
+          </robothands>
+          <robotfeet NodeType="GameObject">
+            <Name>robotfeet</Name>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+            <BX>0</BX>
+            <BY>0</BY>
+            <BZ>0</BZ>
+            <Delay>0.4</Delay>
+            <AudioLoop>False</AudioLoop>
+            <Local_Variables />
+            <CreationActions />
+            <DestructionActions />
+            <PeriodicalActions>
+              <SetX>
+                <Data>
+                </Data>
+                <Par1>robotx</Par1>
+                <Par2>
+                </Par2>
+                <CVarType>
+                </CVarType>
+                <CVar>
+                </CVar>
+                <CollisionEffectOther>False</CollisionEffectOther>
+              </SetX>
+              <SetZ>
+                <Data>
+                </Data>
+                <Par1>robotz</Par1>
+                <Par2>
+                </Par2>
+                <CVarType>
+                </CVarType>
+                <CVar>
+                </CVar>
+                <CollisionEffectOther>False</CollisionEffectOther>
+              </SetZ>
+              <If>
+                <Data>G</Data>
+                <Par1>robotx</Par1>
+                <Par2>&gt;</Par2>
+                <CVarType>G</CVarType>
+                <CVar>golex</CVar>
+                <CollisionEffectOther>False</CollisionEffectOther>
+              </If>
+              <DecreaseGlobalVariable>
+                <Data>robotx</Data>
+                <Par1>1</Par1>
+                <Par2>
+                </Par2>
+                <CVarType>
+                </CVarType>
+                <CVar>
+                </CVar>
+                <CollisionEffectOther>False</CollisionEffectOther>
+              </DecreaseGlobalVariable>
+              <PlayPosAudio>
+                <Data>robotwalk</Data>
+                <Par1>1</Par1>
+                <Par2>
+                </Par2>
+                <CVarType>
+                </CVarType>
+                <CVar>
+                </CVar>
+                <CollisionEffectOther>False</CollisionEffectOther>
+              </PlayPosAudio>
+              <End>
+                <Data>
+                </Data>
+                <Par1>
+                </Par1>
+                <Par2>
+                </Par2>
+                <CVarType>
+                </CVarType>
+                <CVar>
+                </CVar>
+                <CollisionEffectOther>False</CollisionEffectOther>
+              </End>
+              <If>
+                <Data>G</Data>
+                <Par1>robotx</Par1>
+                <Par2>&lt;</Par2>
+                <CVarType>G</CVarType>
+                <CVar>golex</CVar>
+                <CollisionEffectOther>False</CollisionEffectOther>
+              </If>
+              <IncreaseGlobalVariable>
+                <Data>robotx</Data>
+                <Par1>1</Par1>
+                <Par2>
+                </Par2>
+                <CVarType>
+                </CVarType>
+                <CVar>
+                </CVar>
+                <CollisionEffectOther>False</CollisionEffectOther>
+              </IncreaseGlobalVariable>
+              <PlayPosAudio>
+                <Data>robotwalk</Data>
+                <Par1>1</Par1>
+                <Par2>
+                </Par2>
+                <CVarType>
+                </CVarType>
+                <CVar>
+                </CVar>
+                <CollisionEffectOther>False</CollisionEffectOther>
+              </PlayPosAudio>
+              <End>
+                <Data>
+                </Data>
+                <Par1>
+                </Par1>
+                <Par2>
+                </Par2>
+                <CVarType>
+                </CVarType>
+                <CVar>
+                </CVar>
+                <CollisionEffectOther>False</CollisionEffectOther>
+              </End>
+              <If>
+                <Data>G</Data>
+                <Par1>robotz</Par1>
+                <Par2>&gt;</Par2>
+                <CVarType>G</CVarType>
+                <CVar>golez</CVar>
+                <CollisionEffectOther>False</CollisionEffectOther>
+              </If>
+              <DecreaseGlobalVariable>
+                <Data>robotz</Data>
+                <Par1>1</Par1>
+                <Par2>
+                </Par2>
+                <CVarType>
+                </CVarType>
+                <CVar>
+                </CVar>
+                <CollisionEffectOther>False</CollisionEffectOther>
+              </DecreaseGlobalVariable>
+              <PlayPosAudio>
+                <Data>robotwalk</Data>
+                <Par1>1</Par1>
+                <Par2>
+                </Par2>
+                <CVarType>
+                </CVarType>
+                <CVar>
+                </CVar>
+                <CollisionEffectOther>False</CollisionEffectOther>
+              </PlayPosAudio>
+              <End>
+                <Data>
+                </Data>
+                <Par1>
+                </Par1>
+                <Par2>
+                </Par2>
+                <CVarType>
+                </CVarType>
+                <CVar>
+                </CVar>
+                <CollisionEffectOther>False</CollisionEffectOther>
+              </End>
+              <If>
+                <Data>G</Data>
+                <Par1>robotz</Par1>
+                <Par2>&lt;</Par2>
+                <CVarType>G</CVarType>
+                <CVar>golez</CVar>
+                <CollisionEffectOther>False</CollisionEffectOther>
+              </If>
+              <IncreaseGlobalVariable>
+                <Data>robotz</Data>
+                <Par1>1</Par1>
+                <Par2>
+                </Par2>
+                <CVarType>
+                </CVarType>
+                <CVar>
+                </CVar>
+                <CollisionEffectOther>False</CollisionEffectOther>
+              </IncreaseGlobalVariable>
+              <PlayPosAudio>
+                <Data>robotwalk</Data>
+                <Par1>1</Par1>
+                <Par2>
+                </Par2>
+                <CVarType>
+                </CVarType>
+                <CVar>
+                </CVar>
+                <CollisionEffectOther>False</CollisionEffectOther>
+              </PlayPosAudio>
+              <End>
+                <Data>
+                </Data>
+                <Par1>
+                </Par1>
+                <Par2>
+                </Par2>
+                <CVarType>
+                </CVarType>
+                <CVar>
+                </CVar>
+                <CollisionEffectOther>False</CollisionEffectOther>
+              </End>
+            </PeriodicalActions>
+            <CollisionActions />
+            <UpPressedActions />
+            <DownPressedActions />
+            <LeftPressedActions />
+            <RightPressedActions />
+            <Btn1PressedActions />
+            <Btn2PressedActions />
+            <Btn3PressedActions />
+            <Btn4PressedActions />
+            <Btn5PressedActions />
+            <UpReleasedActions />
+            <DownReleasedActions />
+            <LeftReleasedActions />
+            <RightReleasedActions />
+            <Btn1ReleasedActions />
+            <Btn2ReleasedActions />
+            <Btn3ReleasedActions />
+            <Btn4ReleasedActions />
+            <Btn5ReleasedActions />
+            <UpHeldActions />
+            <DownHeldActions />
+            <LeftHeldActions />
+            <RightHeldActions />
+            <Btn1HeldActions />
+            <Btn2HeldActions />
+            <Btn3HeldActions />
+            <Btn4HeldActions />
+            <Btn5HeldActions />
+            <AudioFinishedActions />
+          </robotfeet>
+        </robot>
+        <gole NodeType="GameObject">
+          <Name>gole</Name>
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+          <BX>0</BX>
+          <BY>0</BY>
+          <BZ>0</BZ>
+          <Delay>0.01</Delay>
+          <AudioLoop>True</AudioLoop>
+          <Local_Variables />
+          <CreationActions />
+          <DestructionActions />
+          <PeriodicalActions>
+            <SetX>
+              <Data>
+              </Data>
+              <Par1>golex</Par1>
+              <Par2>
+              </Par2>
+              <CVarType>
+              </CVarType>
+              <CVar>
+              </CVar>
+              <CollisionEffectOther>False</CollisionEffectOther>
+            </SetX>
+            <SetZ>
+              <Data>
+              </Data>
+              <Par1>golez</Par1>
+              <Par2>
+              </Par2>
+              <CVarType>
+              </CVarType>
+              <CVar>
+              </CVar>
+              <CollisionEffectOther>False</CollisionEffectOther>
+            </SetZ>
+            <If>
+              <Data>G</Data>
+              <Par1>robotbehavior</Par1>
+              <Par2>==</Par2>
+              <CVarType>C</CVarType>
+              <CVar>1</CVar>
+              <CollisionEffectOther>False</CollisionEffectOther>
+            </If>
+            <If>
+              <Data>G</Data>
+              <Par1>robotx</Par1>
+              <Par2>==</Par2>
+              <CVarType>G</CVarType>
+              <CVar>golex</CVar>
+              <CollisionEffectOther>False</CollisionEffectOther>
+            </If>
+            <RandomlySetGlobalVariable>
+              <Data>golex</Data>
+              <Par1>0</Par1>
+              <Par2>30</Par2>
+              <CVarType>
+              </CVarType>
+              <CVar>
+              </CVar>
+              <CollisionEffectOther>False</CollisionEffectOther>
+            </RandomlySetGlobalVariable>
+            <End>
+              <Data>
+              </Data>
+              <Par1>
+              </Par1>
+              <Par2>
+              </Par2>
+              <CVarType>
+              </CVarType>
+              <CVar>
+              </CVar>
+              <CollisionEffectOther>False</CollisionEffectOther>
+            </End>
+            <If>
+              <Data>G</Data>
+              <Par1>robotz</Par1>
+              <Par2>==</Par2>
+              <CVarType>G</CVarType>
+              <CVar>golez</CVar>
+              <CollisionEffectOther>False</CollisionEffectOther>
+            </If>
+            <RandomlySetGlobalVariable>
+              <Data>golez</Data>
+              <Par1>0</Par1>
+              <Par2>30</Par2>
+              <CVarType>
+              </CVarType>
+              <CVar>
+              </CVar>
+              <CollisionEffectOther>False</CollisionEffectOther>
+            </RandomlySetGlobalVariable>
+            <End>
+              <Data>
+              </Data>
+              <Par1>
+              </Par1>
+              <Par2>
+              </Par2>
+              <CVarType>
+              </CVarType>
+              <CVar>
+              </CVar>
+              <CollisionEffectOther>False</CollisionEffectOther>
+            </End>
+            <End>
+              <Data>
+              </Data>
+              <Par1>
+              </Par1>
+              <Par2>
+              </Par2>
+              <CVarType>
+              </CVarType>
+              <CVar>
+              </CVar>
+              <CollisionEffectOther>False</CollisionEffectOther>
+            </End>
+            <If>
+              <Data>G</Data>
+              <Par1>robotbehavior</Par1>
+              <Par2>==</Par2>
+              <CVarType>C</CVarType>
+              <CVar>2</CVar>
+              <CollisionEffectOther>False</CollisionEffectOther>
+            </If>
+            <SetGlobalVariable>
+              <Data>golex</Data>
+              <Par1>dogx</Par1>
+              <Par2>
+              </Par2>
+              <CVarType>
+              </CVarType>
+              <CVar>
+              </CVar>
+              <CollisionEffectOther>False</CollisionEffectOther>
+            </SetGlobalVariable>
+            <SetGlobalVariable>
+              <Data>golez</Data>
+              <Par1>dogz</Par1>
+              <Par2>
+              </Par2>
+              <CVarType>
+              </CVarType>
+              <CVar>
+              </CVar>
+              <CollisionEffectOther>False</CollisionEffectOther>
+            </SetGlobalVariable>
+            <End>
+              <Data>
+              </Data>
+              <Par1>
+              </Par1>
+              <Par2>
+              </Par2>
+              <CVarType>
+              </CVarType>
+              <CVar>
+              </CVar>
+              <CollisionEffectOther>False</CollisionEffectOther>
+            </End>
+            <If>
+              <Data>G</Data>
+              <Par1>robotbehavior</Par1>
+              <Par2>==</Par2>
+              <CVarType>C</CVarType>
+              <CVar>3</CVar>
+              <CollisionEffectOther>False</CollisionEffectOther>
+            </If>
+            <SetGlobalVariable>
+              <Data>golex</Data>
+              <Par1>15</Par1>
+              <Par2>
+              </Par2>
+              <CVarType>
+              </CVarType>
+              <CVar>
+              </CVar>
+              <CollisionEffectOther>False</CollisionEffectOther>
+            </SetGlobalVariable>
+            <SetGlobalVariable>
+              <Data>golez</Data>
+              <Par1>31</Par1>
+              <Par2>
+              </Par2>
+              <CVarType>
+              </CVarType>
+              <CVar>
+              </CVar>
+              <CollisionEffectOther>False</CollisionEffectOther>
+            </SetGlobalVariable>
+            <End>
+              <Data>
+              </Data>
+              <Par1>
+              </Par1>
+              <Par2>
+              </Par2>
+              <CVarType>
+              </CVarType>
+              <CVar>
+              </CVar>
+              <CollisionEffectOther>False</CollisionEffectOther>
+            </End>
+          </PeriodicalActions>
+          <CollisionActions />
+          <UpPressedActions />
+          <DownPressedActions />
+          <LeftPressedActions />
+          <RightPressedActions />
+          <Btn1PressedActions />
+          <Btn2PressedActions />
+          <Btn3PressedActions />
+          <Btn4PressedActions />
+          <Btn5PressedActions />
+          <UpReleasedActions />
+          <DownReleasedActions />
+          <LeftReleasedActions />
+          <RightReleasedActions />
+          <Btn1ReleasedActions />
+          <Btn2ReleasedActions />
+          <Btn3ReleasedActions />
+          <Btn4ReleasedActions />
+          <Btn5ReleasedActions />
+          <UpHeldActions />
+          <DownHeldActions />
+          <LeftHeldActions />
+          <RightHeldActions />
+          <Btn1HeldActions />
+          <Btn2HeldActions />
+          <Btn3HeldActions />
+          <Btn4HeldActions />
+          <Btn5HeldActions />
+          <AudioFinishedActions />
+        </gole>
+      </enemies>
+    </RootNode>
+  </Game_Objects>
+  <Variable_Categories>
+    <coordinates />
+    <stats />
+    <existance />
+    <enembehavior />
+  </Variable_Categories>
+  <InitObject>Loader</InitObject>
+  <DebugSaveDir>
+  </DebugSaveDir>
+  <GDEVersion>2.3.1</GDEVersion>
+</ProjectData>
